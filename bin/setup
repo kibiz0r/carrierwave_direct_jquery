@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [[ ! -d vendor/bundle ]]; then
+  bundle install --binstubs=vendor/bin --path vendor/bundle
+else
+  bundle update
+fi

@@ -1,0 +1,8 @@
+.bundle
+vendor/bin
+vendor/bundle
+
+*.swp
+*.swo
+.DS_Store
+tags

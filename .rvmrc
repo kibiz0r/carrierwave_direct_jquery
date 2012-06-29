@@ -1,0 +1,9 @@
+rvm_install_on_use_flag=1
+rvm_gemset_create_on_use_flag=1
+rvm use 1.9.3-p194@carrierwave_direct_jquery
+
+if [[ ! -d vendor/bundle ]]; then
+  echo 'NOTICE: vendor/bundle directory does not exist, run `bin/setup` for first-time setup'
+fi
+
+export PATH=./vendor/bin:$PATH
